@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import turingLogo from '../assets/ts_logo.jpg'
 
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false)
@@ -41,7 +41,7 @@ const Navbar = () => {
             <ul>
               <li>
                 <a href="/" className="flex items-center space-x-1">
-                  <img className="h-10 mr-3" src='/src/assets/ts_logo.jpg' alt="Turing Sapiens" />
+                  <img className="h-10 mr-3" src={turingLogo} alt="Turing Sapiens" />
                 </a>
               </li>
             </ul>
