@@ -181,10 +181,10 @@ export default function Executive() {
               </div>
               <div className='px-6 pt-36'>
                 <p className='font-bold text-2xl text-center pb-1 text-gray-100'>
-                  Treasurer
+                  Khushi Sharma
                 </p>
                 <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
-                  Khushi Sharma
+                  Treasurer
                 </p>
 
                 <div className='flex justify-center mt-2  '></div>
