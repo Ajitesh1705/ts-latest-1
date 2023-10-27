@@ -1,26 +1,24 @@
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
-
-
+import vinayak from "../assets/Vinayak.jpg";
+import atharv from "../assets/Atharv-image.jpg";
+import aryan from "../assets/Aryan_Chauhan.jpg";
+import aditya from "../assets/Aditya_Singh.jpg";
+import khushi from "../assets/khushi.jpg";
+import shubham from "../assets/shubhum.jpg";
 export default function Executive() {
-    return (
+  return (
+    <>
+      <div className='pt-20 overflow-x-hidden'>
+        <div className='grid text-center justify-center w-full pb-32'>
+          <div className=' bg-emerald-700 w-max rounded-lg  '>
+            <h2 class='mb-1 text-4xl tracking-tight font-extrabold text-white text-center bg-[#09070b]'>
+              Our Executives
+            </h2>
+          </div>
+        </div>
 
-        <>
-
-
-            <div className="pt-20 overflow-x-hidden">
-
-                <div className="grid text-center justify-center w-full pb-32">
-                    <div className=" bg-emerald-700 w-max rounded-lg  ">
-                        <h2 class="mb-1 text-4xl tracking-tight font-extrabold text-white text-center bg-[#09070b]">Our Executives</h2>
-                    </div>
-                </div>
-
-                <div class="grid lg:grid-cols-3 sm:grid-cols-2 md:grid-cols-3 lg:gap-40 md:gap-9 sm:gap-12 gap-44 p-10 ">
-
-
-
-
-                    {/* //////////////////////   Social Icons part //////////////////////////////////////
+        <div class='grid lg:grid-cols-3 sm:grid-cols-2 md:grid-cols-3 lg:gap-40 md:gap-9 sm:gap-12 gap-44 p-10 '>
+          {/* //////////////////////   Social Icons part //////////////////////////////////////
 
                     <ul className='text-gray-300 font-medium flex space-x-4'>
 
@@ -50,152 +48,151 @@ export default function Executive() {
 
                     /////////////////////////////////////////////////////////////////////////////////// */}
 
+          <div className='relative'>
+            <div className=' overflow-hidden shadow-xl bg-emerald-700  '>
+              <div className='absolute -mt-28 w-full flex justify-center'>
+                <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
+                  <img
+                    src={vinayak}
+                    alt
+                    className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
+                  />
+                </div>
+              </div>
+              <div className='px-6 pt-36'>
+                <p className='font-bold text-2xl text-center pb-1 text-gray-100'>
+                  Vinayak Kanchan
+                </p>
+                <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
+                  President
+                </p>
 
+                <div className='flex justify-center mt-2  '></div>
+              </div>
+            </div>
+          </div>
 
+          <div className='relative'>
+            <div className=' overflow-hidden shadow-xl bg-emerald-700  '>
+              <div className='absolute -mt-28 w-full flex justify-center'>
+                <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
+                  <img
+                    src={atharv}
+                    alt
+                    className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
+                  />
+                </div>
+              </div>
+              <div className='px-6 pt-36'>
+                <p className='font-bold text-2xl text-center pb-1 text-gray-100'>
+                  Atharv Gulati
+                </p>
+                <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
+                  Vice President
+                </p>
 
+                <div className='flex justify-center mt-2  '></div>
+              </div>
+            </div>
+          </div>
 
-                    <div className="relative">
-                        <div className=" overflow-hidden shadow-xl bg-emerald-700  ">
-                            <div className="absolute -mt-28 w-full flex justify-center">
-                                <div className="h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl">
-                                    <img src="/src/assets/Vinayak.jpg" alt className=" object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	" />
-                                </div>
+          <div className='relative'>
+            <div className=' overflow-hidden shadow-xl bg-emerald-700  '>
+              <div className='absolute -mt-28 w-full flex justify-center'>
+                <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
+                  <img
+                    src={aryan}
+                    alt
+                    className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
+                  />
+                </div>
+              </div>
+              <div className='px-6 pt-36'>
+                <p className='font-bold text-2xl text-center pb-1 text-gray-100'>
+                  Aryan Chauhan
+                </p>
+                <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
+                  General Secretary
+                </p>
 
-                            </div>
-                            <div className="px-6 pt-36">
-                                <p className="font-bold text-2xl text-center pb-1 text-gray-100">Vinayak Kanchan</p>
-                                <p className="text-gray-100 text-md font-semibold text-center pb-2 italic">President</p>
+                <div className='flex justify-center mt-2  '></div>
+              </div>
+            </div>
+          </div>
 
-                                <div className="flex justify-center mt-2  ">
+          <div className='relative'>
+            <div className=' overflow-hidden shadow-xl bg-emerald-700  '>
+              <div className='absolute -mt-28 w-full flex justify-center'>
+                <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
+                  <img
+                    src={aditya}
+                    alt
+                    className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
+                  />
+                </div>
+              </div>
+              <div className='px-6 pt-36'>
+                <p className='font-bold text-2xl text-center pb-1 text-gray-100'>
+                  Aditya Singh
+                </p>
+                <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
+                  Operations Manager
+                </p>
 
+                <div className='flex justify-center mt-2  '></div>
+              </div>
+            </div>
+          </div>
 
-                                </div>
+          <div className='relative'>
+            <div className=' overflow-hidden shadow-xl bg-emerald-700  '>
+              <div className='absolute -mt-28 w-full flex justify-center'>
+                <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
+                  <img
+                    src={shubham}
+                    alt
+                    className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
+                  />
+                </div>
+              </div>
+              <div className='px-6 pt-36'>
+                <p className='font-bold text-2xl text-center pb-1 text-gray-100'>
+                  Shubhum Dahatonde
+                </p>
+                <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
+                  Technical Secretary
+                </p>
 
+                <div className='flex justify-center mt-2  '></div>
+              </div>
+            </div>
+          </div>
 
-                            </div>
-                        </div>
-                    </div>
+          <div className='relative'>
+            <div className=' overflow-hidden shadow-xl bg-emerald-700  '>
+              <div className='absolute -mt-28 w-full flex justify-center'>
+                <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
+                  <img
+                    src={khushi}
+                    alt
+                    className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
+                  />
+                </div>
+              </div>
+              <div className='px-6 pt-36'>
+                <p className='font-bold text-2xl text-center pb-1 text-gray-100'>
+                  Treasurer
+                </p>
+                <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
+                  Khushi Sharma
+                </p>
 
+                <div className='flex justify-center mt-2  '></div>
+              </div>
+            </div>
+          </div>
 
-                    <div className="relative">
-                    <div className=" overflow-hidden shadow-xl bg-emerald-700  ">
-                            <div className="absolute -mt-28 w-full flex justify-center">
-                                <div className="h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl">
-                                    <img src="/src/assets/Atharv Gulati.png" alt className=" object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	" />
-                                </div>
-
-                            </div>
-                            <div className="px-6 pt-36">
-                                <p className="font-bold text-2xl text-center pb-1 text-gray-100">Atharv Gulati</p>
-                                <p className="text-gray-100 text-md font-semibold text-center pb-2 italic">Vice President</p>
-
-                                <div className="flex justify-center mt-2  ">
-
-
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="relative">
-                    <div className=" overflow-hidden shadow-xl bg-emerald-700  ">
-                            <div className="absolute -mt-28 w-full flex justify-center">
-                                <div className="h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl">
-                                    <img src="/src/assets/Aryan_Chauhan.jpg" alt className=" object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	" />
-                                </div>
-
-                            </div>
-                            <div className="px-6 pt-36">
-                                <p className="font-bold text-2xl text-center pb-1 text-gray-100">Aryan Chauhan</p>
-                                <p className="text-gray-100 text-md font-semibold text-center pb-2 italic">General Secretary</p>
-
-                                <div className="flex justify-center mt-2  ">
-
-
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="relative">
-                    <div className=" overflow-hidden shadow-xl bg-emerald-700  ">
-                            <div className="absolute -mt-28 w-full flex justify-center">
-                                <div className="h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl">
-                                    <img src="/src/assets/Aditya_Singh.jpg" alt className=" object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	" />
-                                </div>
-
-                            </div>
-                            <div className="px-6 pt-36">
-                                <p className="font-bold text-2xl text-center pb-1 text-gray-100">Aditya Singh</p>
-                                <p className="text-gray-100 text-md font-semibold text-center pb-2 italic">Operations Manager</p>
-
-                                <div className="flex justify-center mt-2  ">
-
-
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="relative">
-                    <div className=" overflow-hidden shadow-xl bg-emerald-700  ">
-                            <div className="absolute -mt-28 w-full flex justify-center">
-                                <div className="h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl">
-                                    <img src="/src/assets/shubhum.jpg" alt className=" object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	" />
-                                </div>
-
-                            </div>
-                            <div className="px-6 pt-36">
-                                <p className="font-bold text-2xl text-center pb-1 text-gray-100">Shubhum Dahatonde</p>
-                                <p className="text-gray-100 text-md font-semibold text-center pb-2 italic">Technical Secretary</p>
-
-                                <div className="flex justify-center mt-2  ">
-
-
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div className="relative">
-                    <div className=" overflow-hidden shadow-xl bg-emerald-700  ">
-                            <div className="absolute -mt-28 w-full flex justify-center">
-                                <div className="h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl">
-                                    <img src="/src/assets/khushi.jpg" alt className=" object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	" />
-                                </div>
-
-                            </div>
-                            <div className="px-6 pt-36">
-                                <p className="font-bold text-2xl text-center pb-1 text-gray-100">Treasurer</p>
-                                <p className="text-gray-100 text-md font-semibold text-center pb-2 italic">Khushi Sharma</p>
-
-                                <div className="flex justify-center mt-2  ">
-
-
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-
-                 
-
-
-
-
-
-                    {/* ////////////////////  Instagram Post Look //////////////////////////////////
+          {/* ////////////////////  Instagram Post Look //////////////////////////////////
 
                     <div class=" rounded overflow-hidden border w-full  bg-white mx-3 md:mx-0 lg:mx-0">
                         <div class="w-full flex justify-between p-3">
@@ -216,16 +213,8 @@ export default function Executive() {
                                 
                             </div>
                     </div> */}
-
-
-
-                </div>
-
-            </div>
-
-
-        </>
-
-
-    )
+        </div>
+      </div>
+    </>
+  );
 }
