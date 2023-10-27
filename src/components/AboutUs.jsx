@@ -1,3 +1,4 @@
+import aboutUsGif from "../assets/aboutus.gif";
 export default function Aboutus() {
     return (
 
@@ -7,7 +8,7 @@ export default function Aboutus() {
                     <div className=" lg:grid grid-cols-2 w-full place-items-center justify-center overflow-x-hidden">
 
                         <div className='  flex py-10 w-full h-full items-center justify-center'>
-                            <img src='/src/assets/aboutus.gif' alt="Image"
+                            <img src={aboutUsGif} alt="Image"
                                 className="h-fit w-fit  items-center justify-center" />
                         </div>
 
